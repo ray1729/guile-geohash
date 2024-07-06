@@ -10,7 +10,7 @@
 
 (define base32 "0123456789bcdefghjkmnpqrstuvwxyz")
 
-(define* (encode lat lon #:key (precision 12))
+(define* (encode lat lon #:key (precision 6))
   (define desired-precision (min precision max-precision))
   (let loop ((lat-min -90.0)
              (lat-max 90.0)
