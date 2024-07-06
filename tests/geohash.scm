@@ -36,7 +36,7 @@
   (encode 37.25 123.75 #:precision 12))
 
 (test-equal "encode default precision"
-  "wy85bj"
+  "wy85bj0hb"
   (encode 37.25 123.75))
 
 (test-end)
