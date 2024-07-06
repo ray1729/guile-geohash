@@ -2,3 +2,7 @@
 
 #+TITLE: README for Guile Geohash
 
+An implementation of the [[https://en.wikipedia.org/wiki/Geohash][geohash]] encoding system for [[https://www.gnu.org/software/guile/][Guile]].
+
+This is a port of the Javascript implementation by Chris Veness that was released
+under an MIT License, see https://www.movable-type.co.uk/scripts/geohash.html.
