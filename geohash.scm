@@ -1,7 +1,7 @@
 ;; A Geohash implementation for Guile scheme
 ;; This is a port of the code from https://github.com/chrisveness/latlon-geohash/tree/master
 
-(define-module (anarres geohash)
+(define-module (geohash)
   #:use-module (ice-9 receive)
   #:use-module (ice-9 match)
   #:export (encode decode bounds adjacent neighbours))
