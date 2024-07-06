@@ -22,8 +22,7 @@
            ((scheme-file "geohash")
             (directory
               "geohash"
-              ((compiled-scheme-file "hconfig")
-               (scheme-file "hconfig")))))
+              ((scheme-file "hconfig")))))
          (tests ((directory "tests" ((scheme-file "geohash")))))
          (programs ((directory "scripts" ())))
          (documentation

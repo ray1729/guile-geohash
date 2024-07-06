@@ -25,7 +25,6 @@ SUFFIXES = .scm .go
 	$(AM_V_GEN)$(top_builddir)/pre-inst-env $(GUILE_TOOLS) compile $(GUILE_TARGET) $(GUILE_WARNINGS) -o "$@" "$<"
 
 SOURCES = geohash.scm \
-          geohash/hconfig.go \
           geohash/hconfig.scm
 
 TESTS = tests/geohash.scm
